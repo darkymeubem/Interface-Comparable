@@ -22,7 +22,7 @@ public class Main {
             }
             Collections.sort(list);
             for (Funcionario s : list) {
-                System.out.println(s.getName());
+                System.out.println(s.getName() + ", " + s.getSalary());
             }
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
